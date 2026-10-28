@@ -22,6 +22,13 @@ git push -u origin main
 ```
 Create an empty repository named `<repo-name>` on GitHub first (no README).
 
+## Deploy on GitHub Pages
+The repository includes a GitHub Actions workflow that builds and deploys the site whenever changes are pushed to `main`.
+
+1. Open the repository's **Settings → Pages** on GitHub.
+2. Under **Build and deployment**, choose **GitHub Actions** as the source.
+3. After the workflow completes, open [https://arunraja124-stack.github.io/portfolio/](https://arunraja124-stack.github.io/portfolio/).
+
 ## Deploy on Vercel
 1. Sign in at vercel.com with GitHub and choose **Add New → Project**.
 2. Import the portfolio repository.
